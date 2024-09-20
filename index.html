@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Pacotinho de Amor</title>
     <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
     <header>
         <!--Cabeçalho da pagina + a navbar interativa para navegação, inicialmente deixar a navbar se movendo junto ao scroll, mas talvez trocar para fixa, sem que se mova com o scroll da tela-->
         <div class="logonavbar">
-            <img src="images/logo.jpeg" alt="logo projeto pacotinho de amor">
+            <a href="index.html"><img src="images/logo.jpeg" alt="logo projeto pacotinho de amor"></a>
         </div>
 
         <div class="namenavbar">
@@ -28,12 +29,16 @@
     </header>
 
     <div class="box1">
-        <h1>Projetinho Pacotinho de Amor</h1>
-        <img src="#" alt="Imagem de um dos animais a serem adotados">
+        <h1>Projetinho<br>Pacotinho<br> de Amor</h1>
+        <img src="images/imagem-teste.jpg" alt="Imagem de um dos animais a serem adotados">
+    </div>
+    
+    <div class="seta"> <!--trocar a cor dessa seta para a mesma da fonta-->
+        <a href="#sobre"><img src="images/seta-para-baixo.png" alt="seta para baixo"></a>
     </div>
 
     <div class="box2">
-        <h1>Sobre</h1>
+        <h1 id="sobre">Sobre</h1>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque perferendis cupiditate laudantium suscipit
             laborum, nostrum libero officia earum dicta sint vero ex hic! Ab nostrum architecto eius voluptate ad
             maiores?</p>
